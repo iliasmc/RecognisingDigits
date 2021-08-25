@@ -6,7 +6,7 @@ from PIL import Image, ImageOps
 
 # Image location of the image we want to predict
 # When editting image, a 3px black marker in paint 3D is ideal, drawn in the center
-img_location = "C:/Users/ilias/IdeaProjects/Python Project/Tensorflow/my_digit.png"
+img_location = ""
 
 # Bool value to determine whether to display from self.test_images or the above image
 show_testing = False
