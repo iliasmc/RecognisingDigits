@@ -1,12 +1,12 @@
 <h1>Basic setup</h1>
 
-1. Set **directoryLocation** (line 9) to the directory of the image you want the CNN to predict.
+1. Set **directoryLocation** *(line 9)* to the directory of the image you want the CNN to predict.
 
-2. Set the boolean **show_testing** to *False* if you want to see the prediction of only your own image.<br>
-   Set the boolean **show_testing** to *True* if you want to see predictions of random MNIST images.
+2. Set the boolean **show_testing** *(line 12)* to *False* if you want to see the prediction of only your own image.<br>
+   Set the boolean **show_testing** *(line 12)* to *True* if you want to see predictions of random MNIST images.
 
-3. Set the boolean **display_only_image** to *True* if you only want to see your image and the CNN's prediction of it.<br>
-   Set the boolean **display_only_image** to *False* if you want to also see 25 random MNIST images and their predictions.
+3. Set the boolean **display_only_image** *(line 15)* to *True* if you only want to see your image and the CNN's prediction of it.<br>
+   Set the boolean **display_only_image** *(line 15)* to *False* if you want to also see 25 random MNIST images and their predictions.
 
 <h1>Changing your image in real time</h1>
 
