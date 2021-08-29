@@ -34,7 +34,7 @@ class Digits(object):
         self.train_images = self.train_images / 255.0
         self.test_images = self.test_images / 255.0
 
-        # Showing the 25 first digits (if self.hurry = False)
+        # Showing the 25 first digits (if self.show_testing = False)
         if not display_only_image:
             plt.figure(figsize=(10, 10))
             for i in range(25):
